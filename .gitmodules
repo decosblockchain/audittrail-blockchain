@@ -1,0 +1,3 @@
+[submodule "cryptokernel"]
+	path = cryptokernel
+	url = https://github.com/gertjaap/cryptokernel
