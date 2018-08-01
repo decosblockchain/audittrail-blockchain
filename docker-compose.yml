@@ -1,0 +1,16 @@
+version: "2"
+services:
+
+  audit-node:
+    image: audit-cryptokernel
+    restart: always
+    volumes:
+      - ./test-data/addresses-db:/app/bin/audit-addressesdb
+      - ./test-data/blockdb:/app/bin/audit-blockdb
+      - ./test-data/peers:/app/bin/audit-peers
+    stdin_open: true
+    tty: true
+    ports:
+      - "8384:8384"
+      - "49001:49001"
+ 

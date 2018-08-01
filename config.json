@@ -20,7 +20,7 @@
 			"walletdb" : "./audit-addressesdb"
 		}
 	],
-	"miner" : true,
+	"miner" : false,
 	"pubKey": "BG7vzckd0UlJPcQ6b/BtjmGEh9W7aK6J6wzV1kLwK9BprJ1g0ZCF20UWefrSTsixzsR6ZJa/W+0qgLtTNH/9HQU=",
 	"verbose" : true
 }
