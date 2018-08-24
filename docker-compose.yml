@@ -5,9 +5,9 @@ services:
     image: audit-cryptokernel
     restart: always
     volumes:
-      - ./test-data/addresses-db:/app/bin/audit-addressesdb
-      - ./test-data/blockdb:/app/bin/audit-blockdb
-      - ./test-data/peers:/app/bin/audit-peers
+      - ./test-data/addresses-db:/root/ck/audit-addressesdb
+      - ./test-data/blockdb:/root/ck/audit-blockdb
+      - ./test-data/peers:/root/ck/audit-peers
     stdin_open: true
     tty: true
     ports:
